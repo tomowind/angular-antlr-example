@@ -14,6 +14,10 @@ simplest example of angular 2+ with antlr
 - Write your own visitor. See [JsonVisitor.tx](src/app/antlr/JsonVisitor.ts)
 - See [tree-walker.ts](src/app/antlr/tree-walk.ts)
 
+## Other issues
+
+- angular-material doesn't work with ES6 due to a bug. That is, as of 2019 May, you can't use ANTLR4TS and angular-material together.
+
 ## TODO later
 
 - Walk with Listeners.
